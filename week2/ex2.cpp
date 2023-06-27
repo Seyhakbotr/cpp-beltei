@@ -21,7 +21,8 @@ int main()
     if (score >= 50 && score < 70){
         grade = 'C';
     }
-    if (score < 50){
+    else {
+
         grade = 'F';
     }
     std::cout << "Total: " << total << "\n";
